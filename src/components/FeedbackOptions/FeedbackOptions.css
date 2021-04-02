@@ -1,0 +1,19 @@
+.FeedbackOptions {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  margin: 20px;
+}
+
+.FeedbackOptions > button {
+  padding: 10px;
+  color: teal;
+  transition: background-color 500ms linear;
+  border: none;
+}
+
+.FeedbackOptions > button:hover {
+  padding: 10px;
+  background-color: violet;
+  border: none;
+}
